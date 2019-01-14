@@ -2,7 +2,7 @@
 #  author:jbwang
 #  3.1
 library(data.table)
-singlecell<-fread("D:/data_set/singlecell_data.txt",sep = "\t",header = T)
+singlecell<-fread("~/data_set/singlecell_data.txt",sep = "\t",header = T)
 
 #  3.2
 cell_Y<-singlecell[singlecell$chr == "Y"]
